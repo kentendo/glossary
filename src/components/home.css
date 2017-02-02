@@ -1,0 +1,13 @@
+.heading {
+  margin: auto;
+}
+
+.term {
+  border: 1px solid black;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.term:not(:first-of-type) {
+  border-top: none;
+}
